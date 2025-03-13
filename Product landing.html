@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: #333; color: white; padding: 20px; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin: 10px; }
+        nav a { text-decoration: none; color: black; font-weight: bold; }
+        .container { display: flex; justify-content: center; align-items: center; margin: 20px; }
+        .column { flex: 1; padding: 20px; }
+        .column img { max-width: 100%; height: auto; }
+        button { background: #28a745; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        button:hover { background: #218838; }
+        .features-grid { display: flex; justify-content: center; gap: 20px; margin: 20px; }
+        .feature-box { background: #ddd; padding: 20px; width: 100px; }
+        footer { background: #333; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>Awesome Product</h1>
+        <p>The best product for your needs</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <div class="column"><img src="product.jpg" alt="Product Image"></div>
+        <div class="column">
+            <h2>Why Choose Our Product?</h2>
+            <p>Our product provides exceptional quality, great design, and the best value for money.</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <div class="feature-box">Feature 1</div>
+            <div class="feature-box">Feature 2</div>
+            <div class="feature-box">Feature 3</div>
+        </div>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Starting at just <strong>$19.99</strong>!</p>
+    </section>
+    <footer>
+        <p>Contact us at <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+ </body>
+ </html>
